@@ -1,5 +1,9 @@
 package com.tencent.wxcloudrun.service;
 
+import com.tencent.wxcloudrun.model.MealsModel;
+
+import java.util.List;
+
 /**
  * @author cq_wang
  * @description
@@ -7,4 +11,5 @@ package com.tencent.wxcloudrun.service;
  */
 
 public interface SpiderService {
+    List<MealsModel> babyMeals(String address);
 }
